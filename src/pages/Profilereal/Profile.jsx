@@ -36,9 +36,10 @@ const Profile = () => {
     <div className="profile-container">
         
       <div className="profile-content">
-      
+        <div className="header">
+          <button className="back-button">←</button>
           <h1>My Profile</h1>
-       
+        </div>
 
         <div className="profile-info">
           <img 
