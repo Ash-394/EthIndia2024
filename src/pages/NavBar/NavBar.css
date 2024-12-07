@@ -1,0 +1,47 @@
+
+/* NavBar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Distributes space between title and search */
+    align-items: center; /* Vertically aligns items */
+    padding: 0 20px;
+    height: 60px;
+   
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .navbar-title {
+    flex: 1; /* Allows the title to take space as needed */
+    text-align: center; /* Centers the text horizontally */
+    font-size: 24px;
+    font-weight: bold;
+    color:black;
+  }
+  
+  .navbar-search {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-search input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .searchbutton {
+    background-color:#C1DF2E;
+    
+    border: none;
+    cursor: pointer;
+    
+  }
+  
+  .searchbutton img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  

@@ -1,42 +1,28 @@
-import "./App.css";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Register from "./pages/Register/Register";
-import Home from "./pages/Home/Home";
-import AnonLogin from "./pages/AnonLogin/AnonLogin";
+import './App.css';
+//import React, { useState } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import MainPage from './pages/MainPage/MainPage';
 
 
-const App = () => {
-  const router = createBrowserRouter([
-    {
-      path: "/",
-      element: (
-        <>
-          <Home />
-        </>
-      ),
-    },
-
-    {
-      path: "/register",
-      element: (
-        <>
-          <Register />
-        </>
-      ),
-    },
+function App() {
 
 
-    {
-      path: "/anonverify",
-      element: (
-        <>
-          <AnonLogin />
-        </>
-      ),
-    },
-  ]);
-
-  return <RouterProvider router={router}></RouterProvider>;
-};
+  return (
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route path='/' element={<MainPage />} />
+         
+          
+                
+                
+            
+         
+          
+        </Routes>
+      </div>
+    </Router>
+  );
+}
 
 export default App;
