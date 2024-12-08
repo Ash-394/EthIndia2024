@@ -37,7 +37,7 @@ With features like team formation, reputation scoring, real-time video calls, an
 - The chatbot analyzes user input and generates suggestions about **tech stacks**, **sponsor-priority prize recommendations**, and **strategies** for hackathon ideas.
 
 ### 🔗 **Decentralized Storage**:
-- **Akave + Filecoin-powered storage** for secure, privacy-preserving user data.
+- **Akave powered storage** for secure, privacy-preserving user data.
 
 ---
 
