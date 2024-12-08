@@ -1,0 +1,125 @@
+/* Reset margin and padding for all elements */
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Ensure full-page content fits viewport without scrolling */
+  .profile-container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Space out the profile content and footer */
+    background-color: #fff5e6;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .profile-content {
+    width: 100%;
+   
+    position: relative;
+    height: 70vh; /* Set a reduced height to fit desktop screens */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center profile content */
+    align-items: center;
+    gap: 20px;
+    box-sizing: border-box;
+  }
+  
+  .profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Horizontally center the children */
+    justify-content: center; /* Vertically center within the flex container */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-picture {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .username {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .handle {
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .skills {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    gap: 70px;
+    margin-top: 10px;
+  }
+  
+  .skill-tag {
+    padding: 5px 15px;
+    border-radius: 15px;
+    font-size: 14px;
+  }
+  
+  .skill-tag.react {
+    background-color: #f0f7ff;
+    color: #0066cc;
+  }
+  
+  .skill-tag.blockchain {
+    background-color: #f0fff4;
+    color: #00994d;
+  }
+  
+  .skill-tag.mern {
+    background-color: #fff0f0;
+    color: #cc0000;
+  }
+  
+  /* Stats container */
+  .stats {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .stat-box {
+    text-align: center;
+    min-width: 80px;
+  }
+  
+  .stat-box h3 {
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 5px;
+  }
+  
+  .stat-box p {
+    font-size: 14px;
+    color: #666;
+  }
+  .tabs {
+    display: flex;
+    justify-content: flex-start; /* Aligns buttons to the left */
+    gap: 20px; /* Adds equal spacing between buttons */
+  }
+
+  .tab{
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  
+  /* Adjust footer to stick at the bottom without scroll */
+  
+  

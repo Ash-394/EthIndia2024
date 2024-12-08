@@ -1,0 +1,49 @@
+/* NavBar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Distributes space between title and search */
+    align-items: center; /* Vertically aligns items */
+    padding: 0 20px;
+    height: 60px;
+    background:#1B3749;
+   
+    color: white
+    ;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-title {
+    flex: 1; /* Allows the title to take space as needed */
+    text-align: center; 
+    margin-left:350px;/* Centers the text horizontally */
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.navbar-search {
+    display: flex;
+    align-items: center;
+    width: 30%; /* Adjust width as needed */
+    justify-content: flex-end; /* Aligns the search bar to the right */
+}
+
+.navbar-search input {
+    padding: 8px; /* Add padding for better appearance */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    flex: 1; /* Allows the input to take available space */
+}
+
+.searchbutton {
+    background-color: yellowgreen;
+    border: none;
+    cursor: pointer;
+    padding: 8px; /* Add padding for better appearance */
+}
+
+.searchbutton img {
+    width: 20px;
+    height: 20px;
+}

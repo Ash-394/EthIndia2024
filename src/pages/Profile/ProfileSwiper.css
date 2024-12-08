@@ -1,0 +1,237 @@
+.profile-swiper {
+    min-height: 100vh;
+    background-color: #ffffff;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .profile-card {
+    max-width: 700px;
+
+    height:min-content;
+    width: 100%;
+    background-color:#FFE6AE ;
+   border:black 2px;
+    
+    box-shadow: 0 25px 25px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+  .header h1 {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .search-button {
+    padding: 0.5rem;
+    border-radius: 9999px;
+    transition: background-color 0.2s;
+  }
+  
+  .search-button:hover {
+    background-color: #f3f4f6;
+  }
+  
+  .search-icon::before {
+    content: "🔍";
+  }
+  
+  .profile-content {
+    position: relative;
+   
+    height:110%;
+    background-color: #E9A617;
+    border-radius: 0.75rem;
+   
+    
+  }
+  
+  .nav-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: white;
+    border-radius: 9999px;
+    padding: 0.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    transition: background-color 0.2s;
+  }
+  
+  .nav-button:hover {
+    background-color: #f3f4f6;
+  }
+  
+  .prev {
+    left: 0.5rem;
+  }
+  
+  .next {
+    right: 0.5rem;
+  }
+  
+  .chevron-left::before {
+    content: "←";
+  }
+  
+  .chevron-right::before {
+    content: "→";
+  }
+  
+  .profile-image {
+    padding-top:110px;
+    width: 50%;
+  object-fit: cover;
+    height:50%
+  }
+  
+  .profile-info {
+    padding: .1rem;
+    width:40%;
+    height: 40%;
+  }
+  
+  .profile-info h2 {
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .profile-info p {
+    color: #4b5563;
+    padding: 0;
+  
+    
+  }
+  
+  .skills {
+    display: flex;
+    align-items: center;
+    gap: 0.05rem;
+    
+  }
+  
+  .skill-tag {
+    background-color: #fed7aa;
+  
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .rating {
+    padding: 0;
+    display: flex;
+    gap: 0.25rem;
+    margin-top: 0.5rem;
+  }
+  
+  .star-icon::before {
+    content: "⭐";
+    color: #fbbf24;
+  }
+  
+  .action-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .action-button {
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.2s;
+  }
+  
+  .cross {
+    background-color: #e5e7eb;
+  }
+  
+  .cross:hover {
+    background-color: #d1d5db;
+  }
+  
+  .heart {
+    background-color: #fce7f3;
+  }
+  
+  .heart:hover {
+    background-color: #fbcfe8;
+  }
+  
+  .cross-icon::before {
+    content: "❌";
+  }
+  
+  .heart-icon::before {
+    content: "❤️";
+  }
+  
+ 
+  .nav-item {
+    padding: 0.5rem;
+    border-radius: 9999px;
+    transition: background-color 0.2s;
+  }
+  
+  
+  
+  .home-icon::before {
+    content: "🏠";
+  }
+  
+  .message-icon::before {
+    content: "💬";
+  }
+  
+  .user-icon::before {
+    content: "👤";
+  }
+  .profile-info {
+    padding: 1rem;
+    text-align: center;
+    display: flex; /* Enable flexbox */
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    height: 100%; /* Ensure it stretches the full container height */
+    gap: 0.5rem; /* Add spacing between child elements */
+  }
+  
+  .profile-info h2 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: 0; /* Remove any extra margin */
+  }
+  
+  .profile-info p {
+    color: #4b5563;
+    font-size: 0.9rem;
+    margin: 0; /* Remove extra margin */
+  }
+  
+  .skills {
+    display: flex;
+    justify-content: center; /* Horizontally align skill tags */
+    gap: 0.5rem;
+    margin: 1rem 0;
+  }
+  
+  .skill-tag {
+    background-color: #fed7aa;
+    padding: 0.3rem 0.7rem;
+    border-radius: 9999px;
+    font-size: 0.9rem;
+  }
+  
+  
