@@ -1,5 +1,6 @@
 # .Arike: Connecting developers who've fallen in love with Coding
 ## [UI](https://motiff.com/file/youAOWes4uoWexBKxQG3K43?nodeId=0%3A1&type=design)
+## [video](https://youtu.be/UiKmVq077ak)
 
 ![profile](./images/profile.png)
 ![chatbot](./images/chatbot.png)
