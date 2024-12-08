@@ -1,10 +1,14 @@
 # .Arike: Connecting developers who've fallen in love with Coding
+## [UI](https://motiff.com/file/youAOWes4uoWexBKxQG3K43?nodeId=0%3A1&type=design)
 
 ![profile](./images/profile.png)
 ![chatbot](./images/chatbot.png)
 
 #### Citrea Contract deployment address: 0xe66fbe6b364b758c7560969d13993ac9568c5bb5
 [Citrea Test Explorer](https://explorer.testnet.citrea.xyz/address/0xE66Fbe6b364b758c7560969d13993aC9568c5Bb5)
+
+#### BASE Sepolia Testnet Contract deployment address: 0xd0d8b15834ed01311e12dfe842a4d2ac4a7bd487
+[BaseScan](https://sepolia.basescan.org/address/0xd0d8b15834ed01311e12dfe842a4d2ac4a7bd487)
 
 #### Used AKAVE for storing user data using docker container
 
@@ -39,7 +43,7 @@ With features like team formation, reputation scoring, real-time video calls, an
 - The chatbot analyzes user input and generates suggestions about **tech stacks**, **sponsor-priority prize recommendations**, and **strategies** for hackathon ideas.
 
 ### 🔗 **Decentralized Storage**:
-- **Akave + Filecoin-powered storage** for secure, privacy-preserving user data.
+- **Akave powered storage** for secure, privacy-preserving user data.
 
 ---
 
