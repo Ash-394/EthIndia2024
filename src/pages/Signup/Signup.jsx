@@ -27,7 +27,7 @@ const Signup = () => {
       const account = await UseWallet();
       if (account) {
         setConnectedWallet(account); // Set the connected wallet
-        navigate('/MainPage'); // Redirect to MainPage2 after wallet connection
+        // Redirect to MainPage2 after wallet connection
       }
     } catch (error) {
       console.error('Error connecting wallet:', error);
@@ -60,7 +60,7 @@ reader.readAsText(file);
       // Step 4: Complete the signup process (you can also store user in your DB here)
       console.log('User details stored on Akave:', userDetails);
       alert('User signed up and details stored successfully!');
-      navigate('/login');
+      navigate('/MainPage');
     } catch (error) {
       alert('Error during signup: ' + error.message);
       console.error('Error signing up:', error);
