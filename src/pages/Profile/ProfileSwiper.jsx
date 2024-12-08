@@ -5,6 +5,7 @@ import Footer from '../Footer/Footer';
 import card1 from '../../assets/card-1.svg';
 import card2 from '../../assets/card-2.svg';
 import NavBar from '../NavBar/NavBar';
+import { useNavigate } from 'react-router-dom';
 
 const profiles = [
   {
@@ -34,6 +35,7 @@ const profiles = [
 ];
 
 function ProfileSwiper() {
+  const navigate = useNavigate();
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const nextProfile = () => {
@@ -42,6 +44,9 @@ function ProfileSwiper() {
 
   const previousProfile = () => {
     setCurrentIndex((prev) => (prev - 1 + profiles.length) % profiles.length);
+  };
+  const handleCardClick = () => {
+    navigate('/Profilereal'); // Navigate to Profile on card click
   };
 
   const currentProfile = profiles[currentIndex];
@@ -52,7 +57,7 @@ function ProfileSwiper() {
     
     <div className="profile-swiper">
       
-      <div className="profile-card">
+      <div key={currentProfile.id} className="profile-card">
       
 
         <div className="profile-content">
@@ -63,7 +68,7 @@ function ProfileSwiper() {
             <i className="chevron-right"></i>
           </button>
 
-          <img src={currentProfile.image} alt={currentProfile.name} className="profile-image" />
+          <img src={currentProfile.image} alt={currentProfile.name} className="profile-image"  onClick={handleCardClick} />
 
           <div className="profile-info">
             <h2>{currentProfile.name}</h2>

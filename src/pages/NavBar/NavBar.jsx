@@ -6,7 +6,7 @@ const NavBar = () => {
   return (
     <nav className="navbar">
       {/* Centered Title */}
-      <h1 className="navbar-title">Arike Hacker</h1>
+      <h1 className="navbar-title">.Arike</h1>
       
       {/* Search bar positioned at the right */}
       <div className="navbar-search">

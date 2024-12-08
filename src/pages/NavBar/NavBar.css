@@ -15,8 +15,9 @@
 
 .navbar-title {
     flex: 1; /* Allows the title to take space as needed */
-    text-align: center; /* Centers the text horizontally */
-    font-size: 14px;
+    text-align: center; 
+    margin-left:350px;/* Centers the text horizontally */
+    font-size: 32px;
     font-weight: bold;
 }
 

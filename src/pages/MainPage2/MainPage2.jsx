@@ -6,8 +6,10 @@ import card1 from '../../assets/card-1.svg';
 import card2 from '../../assets/card-2.svg';
 import NavBar from '../NavBar/NavBar';
 import Footer from '../Footer/Footer';
+import { useNavigate } from 'react-router-dom';
 
 export default function DeveloperMatches() {
+  const navigate = useNavigate();
   const [matches] = useState([
     {
       id: 1,
@@ -138,6 +140,9 @@ export default function DeveloperMatches() {
       container.scrollBy({ left: 300, behavior: 'smooth' });
     }
   };
+  const handleProfileClick = () => {
+    navigate('/Profile'); // Navigate to ProfileSwiper on click
+  };
 
   return (
     <div className="container">
@@ -152,7 +157,7 @@ export default function DeveloperMatches() {
           <div className="scroll-container">
             <div id="matches-container" className="scrollable-content">
               {matches.map((profile) => (
-                <div key={profile.id} className="card">
+                <div key={profile.id} className="card" onClick={handleProfileClick}>
                   <div className="card-image-wrapper">
                     <img
                       src={profile.image}
